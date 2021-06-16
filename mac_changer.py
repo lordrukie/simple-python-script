@@ -37,4 +37,4 @@ current_mac = get_current_mac(options.interface)
 if current_mac:
     print("Your current MAC is: " + str(current_mac))
 
-# # change_mac(options.interface, options.new_mac)
+change_mac(options.interface, options.new_mac)
